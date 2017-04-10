@@ -1,0 +1,150 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    font-family: "微软雅黑" !important;
+    flex-direction: column;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    padding-top: 22px;
+    background-color: rgba(red, green, blue, 0.95);
+    position: fixed !important;
+    margin: 0;
+    top: 0px;
+    box-shadow: 0px 3px 5px #c2c1c6;
+}
+
+.nav-txt {
+    color: #404040 !important;
+    font-size: 16px;
+}
+
+.img-h {
+    height: 18px;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none !important;
+}
+
+.no-b-r-f {
+    border: none !important;
+    border-radius: 0 !important;
+    margin-top: 1px !important;
+}
+
+.no-li-b-r-f {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+}
+
+.bb {
+    height: 49px;
+    line-height: 49px;
+    font-size: 16px;
+    color: #0070a4;
+    border-bottom: 1px solid #c5c4c9 !important;
+    box-shadow: 0px 1px 2px #c5c4c9;
+    background-color: #ffffff !important;
+    background: url('../img/d.png') no-repeat 96% center;
+    background-size: 4%;
+}
+
+.bb h4 {
+    height: 29px;
+    line-height: 29px;
+}
+
+.upimg {
+    background-image: url('../img/go@3x.png') !important;
+}
+
+.bb h4 a {
+    color: #0070a4;
+    height: 29px;
+    line-height: 29px;
+    display: block;
+    width: 100%;
+}
+
+.bc {
+    background-color: #f0eff5 !important;
+}
+
+.bimgr {
+    background: url('../img/r.png') no-repeat 96% center;
+    background-size: 2%;
+}
+
+.h1-size {
+    background-color: #f0eff5;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.span-point {
+    height: 29px;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+#playRule1 {
+    padding: 8px 16px 0;
+    box-shadow: 0px 3px 5px #c5c4c9;
+    flex: 1;
+}
+
+#playRule1 p {
+    color: #999;
+}
+
+#playRule1 h4 {
+    font-size: 14px;
+    color: #666;
+}
+
+#playRule h4 {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#playRule p {
+    line-height: 18px;
+}
+
+.p-color {
+    color: #ff4040 !important;
+}
+
+footer {
+    margin-top: 3px;
+    height: 30px;
+    background-color: #f0eff5;
+}
+
+footer p {
+    color: #919094;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.font-999 {
+    color: #999 !important;
+}
